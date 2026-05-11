@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Auth Callback — Hasanca</title>
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+      background: #1a0f2e;
+      color: #e5e5e5;
+      min-height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 2rem;
+      line-height: 1.6;
+    }
+    .container {
+      max-width: 640px;
+      width: 100%;
+      background: rgba(255,255,255,0.05);
+      border: 1px solid rgba(255,255,255,0.1);
+      border-radius: 12px;
+      padding: 2.5rem;
+    }
+    h1 {
+      color: #ffd89b;
+      font-size: 1.8rem;
+      font-weight: 300;
+      margin-bottom: 0.5rem;
+      letter-spacing: 0.05em;
+    }
+    .subtitle {
+      color: #8a7ba5;
+      font-size: 0.95rem;
+      margin-bottom: 2rem;
+    }
+    .field {
+      margin-bottom: 1.5rem;
+    }
+    .label {
+      font-size: 0.8rem;
+      text-transform: uppercase;
+      letter-spacing: 0.1em;
+      color: #c9b9d9;
+      margin-bottom: 0.5rem;
+    }
+    .value {
+      background: rgba(0,0,0,0.3);
+      border: 1px solid rgba(255,255,255,0.1);
+      border-radius: 6px;
+      padding: 0.8rem 1rem;
+      font-family: 'Consolas', 'Monaco', monospace;
+      font-size: 0.85rem;
+      word-break: break-all;
+      color: #ffd89b;
+    }
+    .copy-btn {
+      margin-top: 0.5rem;
+      background: #ffd89b;
+      color: #1a0f2e;
+      border: none;
+      padding: 0.6rem 1.2rem;
+      border-radius: 6px;
+      font-size: 0.85rem;
+      font-weight: 600;
+      cursor: pointer;
+      transition: opacity 0.2s;
+    }
+    .copy-btn:hover { opacity: 0.85; }
+    .copy-btn:active { transform: scale(0.97); }
+    .empty {
+      color: #6a5b85;
+      font-style: italic;
+    }
+    .footer {
+      margin-top: 2rem;
+      padding-top: 1.5rem;
+      border-top: 1px solid rgba(255,255,255,0.1);
+      font-size: 0.85rem;
+      color: #8a7ba5;
+    }
+    .footer a { color: #c9b9d9; text-decoration: none; }
+    .status {
+      display: inline-block;
+      padding: 0.25rem 0.7rem;
+      border-radius: 4px;
+      font-size: 0.8rem;
+      margin-bottom: 1rem;
+    }
+    .ok { background: rgba(80,200,120,0.15); color: #50c878; border: 1px solid rgba(80,200,120,0.3); }
+    .err { background: rgba(255,100,100,0.15); color: #ff6464; border: 1px solid rgba(255,100,100,0.3); }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>Auth Callback</h1>
+    <p class="subtitle">TikTok OAuth callback — bu sayfa auth code'unu görüntüler.</p>
+
+    <div id="status-area"></div>
+
+    <div class="field">
+      <div class="label">Authorization Code</div>
+      <div class="value" id="code-value">—</div>
+      <button class="copy-btn" id="copy-code">Copy Code</button>
+    </div>
+
+    <div class="field">
+      <div class="label">State</div>
+      <div class="value" id="state-value">—</div>
+    </div>
+
+    <div class="field">
+      <div class="label">Scopes Granted</div>
+      <div class="value" id="scopes-value">—</div>
+    </div>
+
+    <div class="field">
+      <div class="label">Error (if any)</div>
+      <div class="value" id="error-value">—</div>
+    </div>
+
+    <div class="footer">
+      <p>Bu sayfa private TikTok OAuth tool için callback endpoint'idir.</p>
+      <p style="margin-top: 0.5rem;"><a href="index.html">&larr; Home</a></p>
+    </div>
+  </div>
+
+  <script>
+    (function() {
+      const params = new URLSearchParams(window.location.search);
+      const code = params.get('code');
+      const state = params.get('state');
+      const scopes = params.get('scopes');
+      const error = params.get('error');
+      const errorDescription = params.get('error_description');
+
+      const statusArea = document.getElementById('status-area');
+      const codeEl = document.getElementById('code-value');
+      const stateEl = document.getElementById('state-value');
+      const scopesEl = document.getElementById('scopes-value');
+      const errorEl = document.getElementById('error-value');
+
+      if (error) {
+        statusArea.innerHTML = '<span class="status err">Auth Failed</span>';
+        errorEl.textContent = error + (errorDescription ? ': ' + errorDescription : '');
+        errorEl.classList.remove('empty');
+      } else if (code) {
+        statusArea.innerHTML = '<span class="status ok">Auth Success</span>';
+        codeEl.textContent = code;
+        stateEl.textContent = state || '—';
+        scopesEl.textContent = scopes || '—';
+      } else {
+        statusArea.innerHTML = '<span class="status">No params received</span>';
+        codeEl.classList.add('empty');
+        codeEl.textContent = 'Bu sayfaya TikTok OAuth redirect ile gelmen lazım.';
+      }
+
+      document.getElementById('copy-code').addEventListener('click', function() {
+        if (code) {
+          navigator.clipboard.writeText(code).then(function() {
+            const btn = document.getElementById('copy-code');
+            const original = btn.textContent;
+            btn.textContent = 'Copied!';
+            setTimeout(function() { btn.textContent = original; }, 1500);
+          });
+        }
+      });
+    })();
+  </script>
+</body>
+</html>
