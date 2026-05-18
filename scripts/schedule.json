@@ -1,0 +1,37 @@
+{
+  "organization_id": "69ee96f3b3eb4d0e37bae101",
+  "channels": {
+    "TikTok": "6a03016e090476fb990f1d8f",
+    "Instagram": "69ef0dc05c4c051afae35f4a",
+    "YouTube": "69ee99965c4c051afae1f6a0"
+  },
+  "base_url": "https://nowimflying.github.io/hasanca-music",
+  "hashtags": "#keşfet #tiktokmusic #yenimüzik #viral #music",
+  "songs": [
+    {"file": "HASANCA-GADDAR", "due": "2026-05-17T08:00:00+03:00", "title": "GADDAR", "hook": "Gaddar."},
+    {"file": "HASANCA-AMAN_AMAN", "due": "2026-05-17T12:30:00+03:00", "title": "Aman Aman", "hook": "Aman aman dimi?"},
+    {"file": "HASANCA-Aklim_sende", "due": "2026-05-17T17:30:00+03:00", "title": "Aklim Sende", "hook": "Aklım sende dimi?"},
+    {"file": "HASANCA-TUT_ELiMi", "due": "2026-05-18T08:30:00+03:00", "title": "Tut Elimi", "hook": "Tut elimi herkes görsün"},
+    {"file": "HASANCA-EYVAH", "due": "2026-05-18T13:00:00+03:00", "title": "Eyvah", "hook": "Eyvah yine sana yakalandım"},
+    {"file": "HASANCA-Affet", "due": "2026-05-18T15:30:00+03:00", "title": "Affet", "hook": "Affeder misin?"},
+    {"file": "HASANCA-Beni_en_iyi_sen_kirdin", "due": "2026-05-19T06:30:00+03:00", "title": "Beni En Iyi Sen Kirdin", "hook": "Beni en iyi sen kırdın"},
+    {"file": "HASANCA-Ezberi_boz", "due": "2026-05-19T12:30:00+03:00", "title": "Ezberi Boz", "hook": "Ezberi boz bana bak"},
+    {"file": "HASANCA-Donme_ne_olur", "due": "2026-05-19T17:30:00+03:00", "title": "Donme Ne Olur", "hook": "Dönme ne olur"},
+    {"file": "HASANCA-Seni_icimden_nasil_sokeyim", "due": "2026-05-20T07:00:00+03:00", "title": "Seni Icimden Nasil Sokeyim", "hook": "Nasıl sökeyim seni?"},
+    {"file": "HASANCA-DELI_ETTIN", "due": "2026-05-20T11:30:00+03:00", "title": "Deli Ettin", "hook": "Deli ettin dimi?"},
+    {"file": "HASANCA-Ben_sensiz_yasayamam", "due": "2026-05-20T16:30:00+03:00", "title": "Ben Sensiz Yasayamam", "hook": "Sensiz olamam"},
+    {"file": "HASANCA-Adini_kalbime_muhurledim", "due": "2026-05-21T07:30:00+03:00", "title": "Adini Kalbime Muhurledim", "hook": "Adını kalbime mühürledim"},
+    {"file": "HASANCA-Dagittin_beni", "due": "2026-05-21T12:00:00+03:00", "title": "Dagittin Beni", "hook": "Dağıttın beni"},
+    {"file": "HASANCA-Hep_sana_cikiyor_tum_yollar", "due": "2026-05-21T17:00:00+03:00", "title": "Hep Sana Cikiyor", "hook": "Tüm yollar sana"},
+    {"file": "HASANCA-Nefes_nefese", "due": "2026-05-22T06:30:00+03:00", "title": "Nefes Nefese", "hook": "Nefesim sen oldun"},
+    {"file": "HASANCA-SENI_SEViYORUM", "due": "2026-05-22T12:30:00+03:00", "title": "Seni Seviyorum", "hook": "Seviyorum seni"},
+    {"file": "HASANCA-DAHA_KOTUSU", "due": "2026-05-22T17:30:00+03:00", "title": "Daha Kotusu", "hook": "Daha kötüsü ne?"},
+    {"file": "HASANCA-BIR_YOL_SEC", "due": "2026-05-23T07:00:00+03:00", "title": "Bir Yol Sec", "hook": "Hangi yol?"},
+    {"file": "HASANCA-Meger", "due": "2026-05-23T11:30:00+03:00", "title": "Meger", "hook": "Kalmak da cesaret ister"},
+    {"file": "HASANCA-Sozun_kirigi_kaldi_bende", "due": "2026-05-23T16:30:00+03:00", "title": "Sozun Kirigi", "hook": "Bir kelime kırdı beni"},
+    {"file": "HASANCA-SANA_GOLGE_DUSMESIN", "due": "2026-05-24T07:30:00+03:00", "title": "Sana Golge Dusmesin", "hook": "Sana gölge düşmesin"},
+    {"file": "HASANCA-Ne_var_ne_yok", "due": "2026-05-24T12:00:00+03:00", "title": "Ne Var Ne Yok", "hook": "Ne var ne yok?"},
+    {"file": "HASANCA-Zaman", "due": "2026-05-24T17:00:00+03:00", "title": "Zaman", "hook": "Zaman geri gelmez"},
+    {"file": "HASANCA-Uzak_dur", "due": "2026-05-25T06:30:00+03:00", "title": "Uzak Dur", "hook": "Uzak dur ne olur"}
+  ]
+}
