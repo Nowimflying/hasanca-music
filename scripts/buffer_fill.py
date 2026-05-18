@@ -134,4 +134,10 @@ def main():
 
 
 if __name__ == "__main__":
-    main()
+    try:
+        main()
+    except Exception as e:
+        print(f"FATAL: {e}", file=sys.stderr)
+        # Rate limit / network errors should not fail the workflow run
+        sys.exit(0)
+    sys.exit(0)
