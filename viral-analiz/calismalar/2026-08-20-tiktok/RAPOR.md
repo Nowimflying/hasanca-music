@@ -742,20 +742,238 @@ neyin işe yaradığını artık kanal içi karşılaştırmayla da doğrulayabi
 
 ---
 
-## 2. Kullanıcının videosunun analizi
+## 2. Kullanıcının videolarının analizi (@hasancamuzik — 16 gönderi)
 
-**Bu çalışmada uygulanamadı — nedeni:** Kullanıcı bu çalışma için yalnızca
-`URLLER.txt` içindeki 5 viral referans URL'sini verdi; analiz edilecek kendi
-videosunu (URL veya depo kökündeki `HASANCA-*.mp4` dosyalarından birini)
-belirtmedi. Depo kökünde 32 adet `HASANCA-*.mp4` bulunuyor; hangilerinin bu
-çalışmaya dahil olacağı seçilmeden tam analiz (1a+1b eş derinlik + numaralı hata
-listesi) yapılamaz. Kullanıcı dosya adlarını verdiğinde aynı protokolle
-`benim-N` klasörleri oluşturulup bu bölüm doldurulacaktır.
+**Analiz zamanı:** 2026-08-20 ~13:00 UTC. Kullanıcı 16 gönderi URL'si verdi;
+13'ü tam analiz edildi. **benim-3, benim-4 ve benim-6 fotoğraf (slayt)
+gönderileri analiz edilemedi:** TikTok bu üç gönderiyi anonim erişime hiç
+açmıyor (yt-dlp, embed API, oEmbed, mobil sayfa — tümü giriş duvarı/boş
+dönüyor). Ekran görüntüleri + uygulama içi istatistikleri verilirse aynı
+derinlikte analiz eklenecektir.
+
+### Kanal profili
+
+- **@hasancamuzik** — "🎶✦Hasanca✦🎶": 1.285 takipçi, **242 video**, 32.300
+  toplam beğeni. İmza: "🎵 Hasanca | Şarkıcı & Söz Yazarı / 🎧 Ay Ay Ay •
+  Emanet • Fena Alıştım Sana / Tüm şarkılarıma ve müzik platformlarına
+  buradan ulaşabilirsiniz.👇" (iyi kurgulanmış bio; viral referans
+  kalıbıyla uyumlu).
+- **Konum sinyali: SE (İsveç).** Tüm gönderiler İsveç'ten atılmış görünüyor;
+  içerik dili Türkçe. (Aşağıda teşhiste ele alınıyor.)
+- **Ses stratejisi:** her gönderi "orijinal ses – Hasanca"; benim-14 doğru
+  biçimde adlandırılmış müzik kullanıyor ("Fena Alıştım Sana - HasanCa") —
+  bu, ses döngüsü için doğru yöntem.
+
+### Özet tablo — kullanıcının 13 analiz edilebilen gönderisi
+
+| # | İçerik | Süre | Yükleme (UTC) | İzlenme | Beğeni (oran) | Yorum/Paylaşım | Not |
+|---|---|---|---|---|---|---|---|
+| benim-1 | "EX'den mesaj var! Kabul/Ret" anketi (AI telefon + stüdyo) | 11 sn | 19.08 Çarş. 12:54 | 291 | 5 (%1,7) | 2 / 2 | letterbox'lu |
+| benim-2 | "Şeytan mıydı Melek miydi" — dizi/film klibi + soru kartı | 10 sn | 19.08 Çarş. 07:21 | 277 | 11 (%4,0) | 2 / 1 | telifli görüntü |
+| benim-5 | "Fena Alıştım Sana" — Spotify söz ekranı kaydı | 37 sn | 18.08 Salı 18:47 | 268 | 10 (%3,7) | 4 / 1 | ekran kaydı + letterbox |
+| benim-7 | "Üfle Söndür" mangal skeci (AI çift) | 10 sn | 18.08 Salı 13:56 | 304 | 7 (%2,3) | 3 / 2 | |
+| benim-8 | AI kafe skeci + stüdyo söz ("Ben de çoktan bitti ama") | 19 sn | 18.08 Salı 08:45 | 277 | 7 (%2,5) | 4 / 1 | |
+| benim-9 | "Eski sevgiliye cevabınız?" — sinematik çakmak/parfüm | 14 sn | 17.08 Pzt 09:49 | 478 | 12 (%2,5) | 2 / 4 | letterbox'lu |
+| benim-10 | Afiş + stüdyoda karaoke söz ("EN NET SÖZ") | 10 sn | 16.08 Pazar 12:31 | 274 | 10 (%3,6) | 4 / 4 | **en iyi format** |
+| benim-11 | Albüm tanıtımı: 6 şarkı derlemesi (Kalbime Yolculuk) | 80 sn | 15.08 Cmt 21:29 | 256 | 7 (%2,7) | 1 / 3 | |
+| benim-12 | "Yapay zekâ ile deneme yaptım, nasıl olmuş?" stüdyo | 15 sn | 14.08 Perş. 06:33 | 280 | 18 (%6,4) | 10 / 6 | **en iyi etkileşim** |
+| benim-13 | 💰 REKLAM verilen: "aşk değil alışkanlık mı?" duvar + söz | 14 sn | 11.08 Salı 08:18 | **63.500** | 43 (**%0,07**) | 0 / 16 | reklam gösterimi |
+| benim-14 | CapCut şablonu: gece şehri + gül/zambak + söz kartı | 7 sn | 10.08 Pazar 08:46 | 289 | 14 (%4,8) | 1 / 2 | adlandırılmış müzik ✓ |
+| benim-15 | "Şeytan mısın Melek misin" + 11 şarkılık albüm listesi | 17 sn | 08.08 Cmt 10:18 | 326 | 20 (%6,1) | 4 / 5 | |
+| benim-16 | Deniz kenarı çay + "Hayat çok kısa… ne mutlu ediyorsa onu yap" | 11 sn | 04.08 Salı 10:29 | 303 | 19 (%6,3) | 1 / 3 | müzik dışı içerik |
+
+### Görsel analiz özetleri (1b eş derinlik)
+
+- **benim-1:** #001–#003 afiş kartı ("EX'DEN MESAJ GELSE NE YAPARSIN?"), #004–#011
+  AI elde telefon planı, #012–#015 mesaj balonu + "KABUL EDERDİN / REDDEDERDİN :)"
+  butonları, #016–#024 stüdyoda söyleyen sanatçı + "Yorum yap ya da Anketi
+  cevapla :)". **Video dar bantta, üst/alt geniş siyah bar** (ekran alanının
+  ~%45'i boş). Şarkı ancak 7. saniyede giriyor.
+- **benim-2:** #001–#019 bir dizi/film sahnesi (vitrin camında yansıma, çift) —
+  telifli üçüncü taraf görüntü; #020–#022 siyah zemin soru kartı "Eski sevgilin
+  Şeyta[n] mıydı, Melek miydi?" (yazım hatası: "Seyta mıydı"). Şarkı arka planda.
+- **benim-5:** 37 sn boyunca **Spotify söz ekranının kaydı** (kırmızı zemin,
+  kayan söz duvarı, arkada sanatçı fotoğrafı); tüm sözler aynı anda ekranda,
+  punto küçük; üst/alt siyah bar. Kayan vurgu dışında hareket yok.
+- **benim-7:** AI mangal skeci: adamın eli yanıyor, soru overlay "Elin yansa
+  sevgilinden hangisini beklersin? 💋 Öpsün mü 💨 üflesin mi?", kadın üflüyor →
+  "ÜFLE ÜFLE SÖNDÜR" yazısı şarkıyla senkron. Konsept iyi; kadraj tam dikey ✓.
+- **benim-8:** AI kafe skeci (yeşil elbiseli kadın geçiyor, adam yakasını
+  düzeltiyor) #001–#017 → sert kesmeyle karanlık stüdyoda sanatçı + söz
+  "Ben de çoktan bitti ama" #018–#030. İki yarı arasında ışık/ton uçurumu var.
+- **benim-9:** Sinematik parfüm/çakmak/yüzleşme planları (kaliteli görüntü) ama
+  **çift siyah bar** (üstte soru, altta "Yorumlara bekliyorum 💨", video ortada
+  ince şerit). Şarkı kimliği görünmüyor.
+- **benim-10:** #001–#003 GERÇEK afiş kartı ("ESKİ SEVGİLİYE SÖYLENECEK EN NET
+  SÖZ", kırık kalp + mum görseli) → #004–#021 stüdyoda sanatçı, **kelime kelime
+  dev sarı karaoke yazısı**: "BEN DE ÇOKTAN BİTTİ AMA SENDE HALA YANGIN VAR —
+  ÜFLE ÜFLE SÖNDÜR". Tam ekran 9:16, yüz + söz + ritim senkron. **Kanaldaki en
+  doğru format; viral-2/3 kalıbıyla aynı ailede.**
+- **benim-11:** benim-10'un 80 saniyelik albüm versiyonu: 6 şarkıdan pasajlar,
+  aynı stüdyo karaoke düzeni (retrobesto'nun "menü" formatının doğru fikri!).
+- **benim-12:** Stüdyoda şarkı söyleyen sanatçı (AI görsel deneme), sabit metin:
+  "Yapay zekâ ile ufak bir deneme yaptım. Sizce nasıl olmuş?" — kanalın en
+  yüksek etkileşim oranı (%6,4 beğeni, 10 yorum): AI sorusu konuşturuyor
+  (retrobesto bulgusuyla tutarlı).
+- **benim-13 (REKLAM):** Duvara yaslanan sanatçı, kelime kelime söz ("SEN
+  GELDİN AYARIM KAÇTI BİR GÜLDÜN KALBİM ŞAŞTI…"), hayalet/çözülme geçişleri,
+  üstte soru "Bazen aşk değil de alışkanlık mı canımızı yakıyor?". Kreatif fena
+  değil; ama reklam kitlesi hiç etkileşmemiş (43 beğeni / 63.500 gösterim =
+  %0,07; 0 yorum). 16 paylaşım muhtemelen "paylaş" butonuyla link kopyalama.
+- **benim-14:** 7 sn CapCut şablonu: gece şehri yürüyüşü + gül/zambak makroları
+  + siyah söz kartı "Gitmen gerektiğini biliyordun. Ama kalmayı sen seçtin."
+  Şık ama 7 sn'de şarkı duyulamadan bitiyor.
+- **benim-15:** Karanlık sokak portreleri + ışıklı yazı "ŞEYTAN MISIN / MELEK
+  MİSİN?" → 11 şarkılık albüm listesi kartı ("Kalbime Yolculuk": Şeytan mısın
+  Melek misin, Kendime not, Kıvırcık, …, Zamanın Doldu). Liste 8. saniyede
+  geliyor ve 9 sn ekranda — okunacak yoğunlukta değil.
+- **benim-16:** Deniz kenarında çay içen sanatçı + "Hayat çok kısa… Seni ne
+  MUTLU ediyorsa onu yap :)" — motivasyon içeriği; şarkı tanıtım işlevi yok;
+  kanal kimliğini sulandırıyor.
+
+### Numaralandırılmış hata/eksik listesi (EKSİKSİZ)
+
+Her madde: (a) sorun, (b) nerede görülüyor, (c) viral referanslar doğrusunu
+nasıl yapıyor.
+
+1. **~280 izlenme duvarı — hiçbir gönderi ilk test havuzunu aşamıyor.**
+   (a) 13 organik gönderinin tamamı 256–478 bandında; bu, TikTok'un her
+   gönderiye verdiği ilk örneklem (takipçi + küçük soğuk kitle) seviyesidir —
+   keşfet dağıtımı hiç başlamamış. (b) Özet tablodaki izlenme sütunu.
+   (c) Referanslarda ilk havuzu aşan sinyal, izlenme süresi + paylaşım
+   (viral-2: %1,5 paylaşım; viral-10: %0,9).
+2. **Şarkı hiçbir gönderide "kahraman" olarak ilk 2 saniyede duyulmuyor.**
+   (a) Gönderiler afiş kartı/soru kartıyla açılıyor (benim-1: 1,5 sn kart;
+   benim-10: 1,5 sn kart; benim-13: soru), vokal geç giriyor (benim-1'de 7.
+   sn). (b) İlgili kare damgaları: benim-1 #001–#003, benim-10 #001–#003.
+   (c) viral-2/7: nakarat 0,0. saniyede tam kurulmuş sahneyle girer; CTA/soru
+   videonun İÇİNDE ama sonda ya da kalıcı ince overlay olarak durur.
+3. **Letterbox/siyah bar üç videoda ekranın yarısını yutuyor.** (a) Video
+   içeriği dar şeritte, üst/alt simsiyah. (b) benim-1 (tüm kareler), benim-5,
+   benim-9. (c) Referansların tamamı tam ekran 9:16; TikTok tam dikey
+   doldurmayan içeriğe düşük kalite sinyali uygular.
+4. **Ekran kaydı formatı (Spotify söz ekranı).** (a) 37 sn statik ekran kaydı;
+   küçük punto, tüm sözler aynı anda görünür — okunacak "sıradaki satır"
+   merakı yok. (b) benim-5. (c) viral-1/2 sözleri BLOK BLOK, büyük puntoyla ve
+   zamanla eşitleyerek verir; izleyici satırı beklerken video izlenmiş olur.
+5. **Telifli üçüncü taraf görüntüsü.** (a) Dizi/film sahnesi kullanımı hem
+   telif eşleşmesi/dağıtım kısıtlaması riski hem kimliksizlik yaratıyor.
+   (b) benim-2 #001–#019. (c) Referanslar ya kendi AI üretimini (viral-7/9) ya
+   kendi çekimini (viral-10/14) kullanıyor.
+6. **Soru/anket formatı şarkının önüne geçmiş.** (a) 6 gönderi (benim-1, 2, 7,
+   9, 10, 13) "eski sevgili sorusu" etrafında; ama soruyu taşıyan şarkı pasajı
+   10–14 sn'de tanıtım değeri üretemiyor; kanal "anket kanalı"na benziyor.
+   (b) Özet tablo. (c) viral-2'de soru BAŞLIKTA, video tamamen şarkı+söz;
+   yorum tetikleyici tek katman yeter.
+7. **Yükleme saatleri kazanan banda uymuyor.** (a) 13 gönderiden 9'u 06:33–
+   12:54 UTC (09:33–15:54 TR) bandında; kazanan referans bandı 16:00–21:30 TR.
+   (b) Özet tablo yükleme sütunu. (c) viral-2 Salı 16:51 TR, viral-7 Pzt 00:49
+   TR (lansman istisnası), viral-4 Çarş. 20:32 TR.
+8. **7–19 saniyelik süreler izlenme-süresi sinyali biriktiremiyor.** (a) 13
+   gönderinin 10'u ≤19 sn; şarkı pasajı akılda kalmadan bitiyor. (b) Süre
+   sütunu. (c) Kazanan söz videoları 32–71 sn (viral-2: 71, viral-3: 32).
+9. **#keşfetteyizzz / #keşfetbeni / #fyp hile etiketleri.** (a) 5 gönderide
+   var; viral-16 analizinde bu etiketlerin işe yaramadığı görülmüştü; arama
+   niyeti taşıyan etiketlerin (türkçepop, şarkısözleri, damar) yerini yiyor.
+   (b) benim-10, 11, 12, 14, 15. (c) MELEX'in katmanlı seti: geniş tür + kimlik
+   + niş tür + arama.
+10. **Konum/kitle sinyal karışıklığı (SE→TR).** (a) Hesap İsveç'ten Türkçe
+    içerik atıyor; ilk test havuzuna giren yerel (İsveçli) kullanıcı Türkçe söz
+    videosuyla etkileşmez → ilk havuz sinyali zayıflar. (b) Tüm gönderilerde
+    `olusturuldugu_ulke: SE`. (c) Aynı durumdaki MELEX/FEROV (DE) bunu iki
+    dilli içerik + diaspora/global etiketlerle çözüyor (viral-3: TR+RU;
+    viral-14: İngilizce başlık); Natali (viral-10) Alanya etiketiyle yerel
+    kitleye bağlanıyor.
+11. **Reklam kreatifi soğuk kitlede dönüşmemiş.** (a) 63.500 gösterim → 43
+    beğeni (%0,07), 0 yorum: gösterim satın alınmış ama içerik reklam
+    kitlesini durduramamış; reklam izlenmeleri organik keşfet sinyali de
+    üretmez. (b) benim-13. (c) viral-7'nin muhtemel tanıtımlı 396k'sı bile
+    %0,56 tutmuştu; sağlıklı organik bant %3–5.
+12. **Albüm listesi kartı okunamıyor.** (a) 11 satırlık liste 9 sn ekranda,
+    küçük punto. (b) benim-15 #016–#024. (c) retrobesto (viral-8) her şarkıya
+    ~10 sn ayrı afiş veriyor — liste değil, sıralı vitrin.
+13. **Müzik dışı motivasyon içeriği kanal kimliğini bulandırıyor.** (a) "Hayat
+    çok kısa…" videosunun şarkı tanıtımıyla ilgisi yok; algoritmanın kanalı
+    sınıflandırmasını zorlaştırıyor. (b) benim-16. (c) Referans kanalların
+    tamamı tek konsept (Can Güven: söz videoları; retrobesto: retro afişler).
+14. **Yazım hataları.** (a) "Şeyta mıydı" (benim-2 kartı), "ufak bie deneme"
+    (benim-12 açıklama). (b) İlgili kare/metadata. (c) Profesyonel algı için
+    sıfır tolerans.
+15. **Fotoğraf gönderileri erişilemez durumda** (benim-3/4/6). (a) Bu üç
+    gönderi anonim/giriş yapmamış kullanıcılara hiç servis edilmiyor — bu
+    hâliyle harici paylaşım linkleri de ölü. (b) Bölüm 2 girişindeki not.
+    (c) viral-4 (MELEX'in slaytı) anonim erişime açık ve 27k almıştı. Bu üç
+    gönderinin uygulama içinden kontrol edilmesi gerekir (kısıtlama uyarısı
+    var mı) — gerekiyorsa aynı içerik yeniden gönderilmeli.
+
+### Kullanıcının sorularına doğrudan cevaplar
+
+**a. Neden keşfete düşmedi?**
+Tek bir neden değil, birbirini besleyen dört katman:
+1. **Sinyal üretimi yetersiz:** İlk test havuzunda (≈300 gösterim) TikTok'un
+   büyütme kararı verdiği metrikler tamamlanma + tekrar izlenme + paylaşımdır.
+   Gönderiler soru kartı/afişle açılıp şarkıyı geç verdiği, süreler 7–19 sn
+   olduğu ve paylaşılacak "cümle/sahne" içermediği için bu eşik hiç aşılmamış
+   (13 gönderide toplam paylaşım: 38 — viral-2 tek başına 971).
+2. **Format cezaları:** letterbox (3 video), ekran kaydı (1), telifli görüntü
+   (1) — bunlar hem izleyici davranışını hem platformun kalite
+   sınıflandırmasını olumsuz etkiler.
+3. **Kitle-sinyal uyumsuzluğu:** İsveç konumundan tek dilli Türkçe içerik →
+   ilk havuzun bir kısmı yanlış kitle; diaspora kanallarının kullandığı iki
+   dillilik/yerel etiket köprüsü kurulmamış.
+4. **Kanal geçmişi:** 242 gönderinin neredeyse tamamı aynı duvara çarpmış;
+   algoritma kanala dair "düşük etkileşimli hesap" önseli biriktirmiş olabilir
+   (resmî olarak doğrulanmış bir mekanizma değil, ama gözlemlenen davranışla
+   tutarlı). ÖNEMLİ: içerik fikirleri (Üfle Söndür konsepti, stüdyo karaoke)
+   ve örneklem içi etkileşim oranları (%4–6) İYİ — sorun yaratıcılıkta değil,
+   paketleme ve dağıtım mühendisliğinde.
+
+**b. Değişiklik yapmalı mıyız?**
+Evet, ama doğru yerde: **eski gönderileri düzenlemek değil, yeni gönderileri
+doğru kalıpla atmak.** TikTok'ta yayınlanmış videonun görüntüsü değiştirilemez;
+açıklama/etiket düzenlemesi eski bir gönderiyi yeniden dağıtıma sokmaz. Eski
+gönderileri silmeye de gerek yok (kanala zararı yok). Yapılacaklar Bölüm 5'te
+gönderi gönderi listelendi; özet: en iyi 4 konsept (benim-10, 7, 12, 11) doğru
+kalıpla YENİDEN çekilip/kurgulanıp yeni gönderi olarak atılmalı.
+
+**c. Yapılan değişiklik etki eder mi?**
+- Eski gönderide metadata düzenlemesi: **etkisi ihmal edilebilir** (arama
+  görünürlüğünde marjinal düzelme dışında).
+- Yeni gönderilerde kalıp düzeltmesi: **evet, kanıta dayalı olarak.** Aynı
+  kanalın kalıp değişikliğiyle 6–15 kat oynadığını referanslarda ölçtük
+  (MELEX viral-3 vs viral-11; FEROV viral-5 vs viral-13). Takipçi sayısı engel
+  değil: 1.451 takipçili retrobesto 43,6k; 4.447 takipçili Ayşe Çetin 396k;
+  6.608 takipçili Can Güven 63k yaptı. Sizin örneklem içi beğeni oranlarınız
+  (%4–6) referans bandında — içerik gösterildiğinde tutuyor; kırılması gereken
+  şey ilk havuz eşiği. Gerçekçi hedef: düzeltilmiş kalıpla ilk 4–6 haftada
+  1k–10k bandına düzenli çıkmak, tek "isabet"le 50k+ denemesi.
+- Reklam: mevcut kreatifle tekrarlanmamalı (%0,07 kanıtı). Reklam ancak
+  organik olarak zaten tutmuş bir videoyu büyütmek için anlamlı.
+
+**d. Yeni gönderiler için strateji planı:** Bölüm 4'teki paket bu 18 referans +
+16 kendi gönderisi analiziyle güncel; uygulama planı aşağıda (Bölüm 5 sonrası
+"STRATEJİ PLANI" alt bölümü).
 
 ## 3. Karşılaştırma tablosu
 
-Kullanıcı videosu sütunu, Bölüm 2'deki nedenle boş; viral videolar kendi
-aralarında karşılaştırıldı (kazanan kalıbı görünür kılmak için):
+### 3A. Kazanan kalıp vs @hasancamuzik (güncel)
+
+| Boyut | Kazanan referans kalıbı | @hasancamuzik mevcut durum | Fark |
+|---|---|---|---|
+| Hook (ilk 2 sn) | Nakarat vokali + tam kurulmuş sahne 0,0 sn'de (viral-2/7) | Afiş/soru kartı, şarkı 4.–7. sn'de | ❌ kritik |
+| Süre | 32–71 sn söz videosu | 7–19 sn ağırlıklı | ❌ kritik |
+| Ekran kullanımı | Tam 9:16 | 3 videoda %45+ siyah bar | ❌ |
+| Söz katmanı | Blok blok / kelime kelime büyük punto | Var (benim-10/11/13 ✓), bazılarında yok veya ekran kaydı | ⚠️ kısmen |
+| Paylaştırılabilir cümle | "Gözün sadece bende olsun" tipi ikinci şahıs cümle | Var ama soru formatına gömülü | ⚠️ |
+| CTA | Tek, geç (son 8–10 sn) veya kalıcı ince soru | Soru ana içerik olmuş | ❌ |
+| Etiket | Katmanlı: tür + kimlik + niş + arama | keşfetteyizzz/fyp hileleri karışık | ⚠️ |
+| Yükleme saati | Salı–Çarş. 16:00–21:30 TR | Ağırlıkla sabah/öğle TR | ❌ |
+| İki dillilik / kitle köprüsü | TR+RU veya EN (diaspora kanalları) | Yok (SE'den tek dilli TR) | ❌ |
+| Ses stratejisi | Adlandırılmış tek ses, üçüncü kişi kullanımı hedefli | Çoğu "orijinal ses", benim-14 ✓ | ⚠️ |
+| Örneklem içi beğeni | %3–5 | %4–6 ✓ | ✅ güçlü yan |
+| Prodüksiyon fikri | Tek şablon, seri üretim | Yaratıcı ve çeşitli ✓ (ama dağınık) | ✅/⚠️ |
+
+### 3B. Viral videolar kendi aralarında (ilk partinin tablosu)
 
 | Boyut | viral-1 | viral-2 ⭐ | viral-3 | viral-4 | viral-5 | Kullanıcı videosu |
 |---|---|---|---|---|---|---|
@@ -960,23 +1178,100 @@ düşük performanslı yükleme Pazar sabahı (viral-5, 206/gün).
 
 ## 5. Eski videolar için yeniden düzenleme planı
 
-**Bu çalışmada uygulanamadı — nedeni:** Bölüm 2 ile aynı: bu çalışmada analiz
-edilmiş kullanıcı videosu yok; kare damgalı kes/ekle planı ancak video bu
-protokolden geçirildikten sonra yazılabilir. Depo kökündeki 32 `HASANCA-*.mp4`
-dosyasından hangileri isteniyorsa bir sonraki çalışmada `benim-N` olarak
-hazırlanıp her biri için (kes/ekle + yeni başlık/açıklama/etiket + yeniden
-yayınlama kararı) bu bölüm doldurulacaktır.
+Genel kural (Bölüm 2b'deki gerekçeyle): TikTok'ta eski videonun görüntüsü
+değiştirilemez; bu yüzden karar üç seçenekten biri: **(K)** olduğu gibi kalsın,
+**(Y)** düzeltilmiş versiyonu YENİ gönderi olarak at, **(M)** yalnız metadata
+(açıklama/etiket) düzelt. Silme önerilmiyor.
+
+| Gönderi | Karar | Yapılacak |
+|---|---|---|
+| benim-1 (EX anketi) | **Y** | Yeniden kurgula: siyah barlar at (tam 9:16), nakarat 0,0 sn'de girsin, telefon/mesaj sahnesi 2.–5. sn'e, "Kabul/Ret 👇" kalıcı ince üst overlay olsun, süre 30 sn+. Yeni başlık: "EX'den bu mesaj gelse: kabul mü, ret mi? 👇" |
+| benim-2 (dizi klibi) | **K** (tekrarı yok) | Telifli görüntüyü bir daha kullanma; aynı soru konsepti benim-15'in kendi çekimleriyle yeniden üretilebilir. Karttaki "Şeyta mıydı" yazımı ders olsun. |
+| benim-5 (Spotify kaydı) | **Y** | Ekran kaydını at; aynı şarkıyı viral-1/2 kalıbıyla yeniden yap: tek estetik sahne + altın tipografi başlık + blok blok söz + dalga formu, 60 sn. |
+| benim-7 (mangal skeci) | **Y (öncelikli)** | Konsept güçlü. Yeniden kurgu: 0,0 sn'de "ÜFLE ÜFLE SÖNDÜR" nakarat vokali + üfleme anı; skeç 2.–8. sn; soru kalıcı üst overlay; sona "devamı profilde 🎧". 20–30 sn. |
+| benim-8 (kafe + stüdyo) | **M** | Açıklamaya şarkı adı + katmanlı etiket seti; gelecekte iki yarının renk uyumunu eşitle. |
+| benim-9 (çakmak sinematik) | **Y** | Görüntüler kaliteli: tam ekrana yeniden kadrajla, soruyu tek satır ince overlay yap, şarkının en vurucu 25 saniyesini koy. |
+| benim-10 (EN NET SÖZ) | **Y (şablon adayı)** | Kanalın en iyi formatı. Düzeltme: afiş kartını at (0,0 sn'de vokal + yüz + ilk kelime), 30 sn'e uzat, son 5 sn "kaydet + profil" CTA'sı. Bu düzen HASANCA'nın standart şablonu olsun. |
+| benim-11 (albüm medley) | **Y** | retrobesto kalıbına çevir: her şarkıya ~10 sn AYRI afiş/sahne + şarkı adı büyük puntoyla; sonda albüm kapanış kartı + "hangisi favorin? 👇". 60–90 sn. |
+| benim-12 (AI deneme) | **M + devam** | En iyi etkileşim. Açıklamaya "yapay zekâ" tartışma sorusunu koymaya devam; yazım hatasını düzelt; bu seriyi düzenli yap ("AI ile şu şarkıyı böyle görselledim, hangisi daha iyi? A/B"). |
+| benim-13 (reklamlı) | **K** | Reklamı bu kreatifle yenileme. Ders alındı; organik tutan video çıkınca reklam o videoya verilebilir. |
+| benim-14 (CapCut 7 sn) | **M** | 7 sn'lik hâliyle kalsın; adlandırılmış müzik kullanımı doğru — bundan sonra tüm gönderilerde adlandırılmış ses kullan. |
+| benim-15 (albüm listesi) | **Y** | Liste kartını parçala: her gönderide 1 şarkı adı + 1 vurucu söz kartı (viral-4 slayt formatı da uygun — 3 kart: kapak/TR söz/albüm listesi). |
+| benim-16 (motivasyon) | **K** | Müzik dışı içeriği ayrı seriye/hesaba taşı ya da bırak; ana kanalda tek kimlik: şarkı + söz. |
+| benim-3/4/6 (foto, erişilemedi) | **kontrol** | Uygulamada aç: "Bu gönderi bazı bölgelerde gösterilmiyor / uygunluk" uyarısı var mı bak; slaytlar keşfette görünmüyorsa aynı kartları yeni gönderi olarak paylaş (viral-4 kalıbı: kapak-tersleme + TR söz kartı + RU/EN söz kartı). |
+
+---
+
+## STRATEJİ PLANI — yeni gönderiler (d cevabı, uygulamaya hazır)
+
+**Hedef:** 4–6 haftada ilk test havuzu duvarını (≈300) kırıp 1k–10k bandına
+düzenli oturmak; ses döngüsünü başlatmak; tek isabetle 50k+ denemek.
+
+### Hafta düzeni (haftada 4 gönderi, toplam üretim ~2-3 saat/hafta)
+
+- **Salı 17:00 TR — ANA SÖZ VİDEOSU** (benim-10 şablonu, 30–45 sn):
+  0,0 sn nakarat + yüz/sahne tam kurulu + kelime kelime sarı karaoke söz +
+  kalıcı ince soru overlay + son 5 sn "kaydet 🎧 takip et". Her hafta farklı
+  şarkı; aynı görsel düzen (marka tanınırlığı).
+- **Çarşamba 20:00 TR — SLAYT KARTI** (viral-4 kalıbı, üretim 15 dk):
+  3 kart: (1) estetik kapak + tersleme cümlesi ("sadece bir şarkı…" tipi),
+  (2) TR söz kartı, (3) aynı görselde EN veya RU çeviri. Ses: o haftaki şarkı.
+- **Cuma 17:00 TR — DİYALOG/SKEÇ** (benim-7 konsepti, 20–30 sn):
+  Üfle Söndür tipi sahne; nakarat 0,0 sn'de; soru üstte kalıcı.
+- **Pazar 20:00 TR — SERİ İÇERİK dönüşümlü:**
+  (i) "menü" videosu (11 şarkı × 8 sn afiş — retrobesto kalıbı, ayda 1),
+  (ii) AI A/B sorusu (benim-12 serisi),
+  (iii) sosyal kanıt denemesi (sahne/prova görüntüsü + "bu nakarat kafamdan
+  çıkmıyor" tipi izleyici ağzından overlay — viral-14 kalıbı).
+
+### Kitle köprüsü (SE→TR sorununun çözümü)
+
+- Her ana videoda **ikinci dil katmanı**: hedef kitleye göre TR+EN (global) ya
+  da TR+RU (Antalya/diaspora hattı denemesi) — viral-3/10 kanıtı.
+- Etiket şablonu (hile etiketleri yok): `#hasanca #türkçepop #şarkısözleri
+  #damar|#poparabesk (tür) + #yenişarkı|şarkı adı` + slaytlarda yer/dil
+  etiketi (#türkiye, #turkishmusic; RU denemesinde #турция #песня).
+- Bio'ya güncel single satırı zaten var ✓; "OUT NOW" formatına çevir.
+
+### Ses döngüsü
+
+- Her şarkıyı TEK adlandırılmış ses olarak yayınla ("Şarkı Adı - HasanCa",
+  benim-14'teki gibi) ve sonraki tüm gönderilerde AYNI sesi kullan (bölünmüş
+  "orijinal ses"ler sesin izlenme birikimini parçalıyor).
+- Slayt ve skeç videoları "bu sese video çek" davranışını tetikleyecek kadar
+  basit sahneler göstersin (araba camı + gece ışıkları + söz — viral-10'un
+  taklit edilebilirliği).
+
+### Lansman kurgusu (yeni şarkı çıkışlarında)
+
+- Çıkıştan 7–10 gün önce: "GG.AA.2026 🖤 <Şarkı> çıkıyor" teaser'ı (viral-3).
+- Çıkış günü: Pazartesi 00:30 TR "BUGÜN YAYINDA" + görev dili ("dinle, izle,
+  paylaş — duyguma ortak ol", viral-7 kalıbı).
+- Çıkış haftası: ana söz videosu + slayt + skeç aynı sesle art arda.
+
+### Ölçüm ve karar kuralları
+
+- Her gönderide 48 saat sonra bak: izlenme >600 mü (ilk havuz kırıldı mı),
+  paylaşım/izlenme >%0,8 mi, tamamlanma (uygulama analitiği) >%60 mı.
+- 4 hafta üst üste kıramayan format düşürülür; kıran format haftada 2'ye
+  çıkarılır.
+- Reklam SADECE organik kırılım yapan videoya, "spark" mantığıyla verilir;
+  soğuk kreatife reklam yok (benim-13 kanıtı).
+- Hassas içerik/erişim kontrolü: her gönderiden sonra gizli sekmeden linki
+  aç — giriş duvarı görürsen (benim-3/4/6 durumu) gönderiyi uygulamadan
+  kontrol et.
 
 ## 6. Eksiksizlik kontrol listesi
 
 ```
 - [x] Her viral video için 1a + 1b + 1c tamam (17/18; viral-6 giriş duvarı nedeniyle erişilemedi, gerekçesi Bölüm 1B'de)
-- [ ] Her kullanıcı videosu için tam analiz + numaralı hata listesi — UYGULANAMADI: bu çalışmada kullanıcı videosu verilmedi (Bölüm 2'de gerekçe yazılı)
-- [x] Karşılaştırma tablosu var (kullanıcı sütunu gerekçeli boş)
+- [x] Her kullanıcı videosu için tam analiz + numaralı hata listesi (13/16 tam; benim-3/4/6 foto gönderileri anonim erişime kapalı — gerekçe Bölüm 2 girişinde, kontrol adımı Bölüm 5 tablosunda)
+- [x] Karşılaştırma tablosu var (3A: kalıp vs kanal; 3B: viraller arası)
 - [x] 10+ başlık (11), tam açıklama (3 platform), 30+ etiket (34)
 - [x] Saniye saniye akış planı 0:00'dan 1:00'a kesintisiz
 - [x] Süre, hook, CTA, efekt, yayın zamanı, kapak önerileri dolu
-- [ ] Her eski video için yeniden düzenleme planı — UYGULANAMADI: aynı gerekçe (Bölüm 5)
+- [x] Her eski video için yeniden düzenleme planı (Bölüm 5 tablosu, 16 gönderi)
+- [x] Kullanıcının a/b/c/d soruları doğrudan cevaplı (Bölüm 2 sonu + STRATEJİ PLANI)
 - [x] Uygulanamayan maddelerin nedeni raporda açıkça yazılı
 ```
 
