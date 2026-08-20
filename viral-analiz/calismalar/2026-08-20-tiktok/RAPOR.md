@@ -357,6 +357,248 @@ konumlandırması bu pazarın bilinçli stratejisi.
 
 ---
 
+## 1B. İKİNCİ PARTİ (2. tur, kullanıcı 4 URL daha verdi)
+
+**Analiz zamanı:** 2026-08-20 ~09:30 UTC.
+
+### Özet tablo — 2. parti
+
+| | viral-6 | viral-7 | viral-8 | viral-9 |
+|---|---|---|---|---|
+| Sanatçı/kanal | @kozat26 | Ayşe Çetin (@aysecetinofficiall) | retrobesto (@retrobesto) | TAYFUN X (@tayfunyenidunya) |
+| Kanal takipçi / video | erişilemedi | 4.447 / 29 | 1.451 / 16 | 5.016 / 97 |
+| Ülke | — | 🇹🇷 TR | 🇹🇷 TR | 🇹🇷 TR |
+| Şarkı / içerik | erişilemedi | Sana Emanet (tam AI klip) | Katalog derlemesi (11 şarkı) | Kaldım (AI düet klip) |
+| Süre | — | 298 sn (5 dk!) | 124 sn | 222 sn |
+| Yükleme (UTC) | — | 16.08 Pazar 21:49 (Pzt 00:49 TR) | 05.08 Çarş. 15:05 (18:05 TR) | 17.08 Pzt 13:13 (16:13 TR) |
+| İzlenme | — | **396.400** | 43.600 | 7.451 |
+| İzlenme/takipçi | — | **89×** | 30× | 1,5× |
+| Günlük ort. izlenme | — | **~99.100 (4 gün)** | ~2.900 (15 gün) | ~2.480 (3 gün) |
+| Beğeni (oran) | — | 2.206 (**%0,56!**) | 1.072 (%2,5) | 854 (**%11,5!**) |
+| Yorum / Paylaşım | — | 132 / 429 | 7 / 25 | 73 / 117 |
+| Etiket | — | 5 (açıklama içinde) | 5 | 5 |
+
+### VIRAL-6 — @kozat26 (7675415130695339277)
+
+**Uygulanamadı — nedeni:** Gönderi TikTok tarafından "bazı izleyiciler için
+uygun olmayabilir" (hassas içerik) etiketiyle **giriş duvarının arkasına**
+alınmış. yt-dlp, embed API, oEmbed ve mobil sayfa — dördü de anonim erişimde
+boş/kilitli dönüyor; oturum çerezi olmadan videoya, metadata'sına ve karelerine
+ulaşmak mümkün değil. Analiz istenirse: (a) videonun ekran kaydı/dosyası bana
+verilebilir, ya da (b) gönderinin hangi video olduğu söylenirse açık bir
+kopyası üzerinden analiz yapılır. Not: hassas içerik etiketi yiyen gönderiler
+keşfet dağıtımından büyük ölçüde düşer — HASANCA stratejisi için ders: kapak ve
+ilk karede bu etiketi tetikleyebilecek görsellerden (aşırı ten, şiddet imgesi,
+sigara/alkol yakın planı) kaçınılmalı.
+
+### VIRAL-7 — Ayşe Çetin, "Sana Emanet" (396k izlenme — 2. turun devi)
+
+**1a. Metadata analizi**
+
+- **Başlık/açıklama (tam metin):** "✨🖤 BUGÜN YAYINDA! 🖤✨ 🎶 Yeni şarkım 'Sana
+  Emanet' 🎬 Klibiyle birlikte bugün sizlerle! Benden sonra size emanet… 🖤
+  TikTok keşfette beni öne çıkarttı, şimdi sıra sizde! 🔥 Dinle, izle, paylaş…
+  Duyguma ortak ol. 🎶 🎧 Spotify • YouTube Müzik • Fizy • Apple Music
+  #SanaEmanet #AyşeÇetin #BugünYayında #YeniŞarkı #YeniKlip".
+  Ders kitabı gibi bir açıklama: (1) aciliyet ("BUGÜN YAYINDA"), (2) duygusal
+  kanca ("Benden sonra size emanet…" — şarkı adıyla kelime oyunu), (3) sosyal
+  kanıt + görev verme ("TikTok keşfette beni öne çıkarttı, şimdi sıra sizde!"),
+  (4) üçlü eylem CTA'sı ("Dinle, izle, paylaş"), (5) platform listesi,
+  (6) 5 etiket: 2 marka (#SanaEmanet #AyşeÇetin) + 3 arama (#BugünYayında
+  #YeniŞarkı #YeniKlip). Tamamı Türkçe — hedef yerli pazar.
+- **Kanal:** 4.447 takipçi, yalnız 29 video, 64,3k toplam beğeni. **396.400
+  izlenme = takipçinin 89 katı.** İmza: "AYSECETIN OFFICIAL / eternal sound
+  music / Yeni şarkılar için takipte kalın" (plak şirketi + takip CTA'sı).
+- **Yükleme:** 2026-08-16 Pazar 21:49 UTC = **Pazartesi 00:49 TR (gece
+  yarısı!)** — "BUGÜN yayında" ifadesiyle tutarlı: gün dönümünde yayın, tüm
+  Pazartesi'yi ilk-24-saat penceresi yapıyor. 4 günde 396.400 (~99.100/gün).
+- **Oranlar — kritik bulgu:** Beğeni **%0,56** (bu çalışmadaki en düşük!),
+  yorum %0,03, paylaşım %0,11. İzlenme devasa ama etkileşim oranı çok cılız.
+  Bu imza tipik olarak **ücretli tanıtımın (TikTok Promote/reklam)** izidir:
+  geniş ama pasif kitleye zorla gösterim. "TikTok keşfette beni öne çıkarttı"
+  cümlesi de buna işaret ediyor olabilir. Yani 396k'nın anlamlı bir kısmı
+  muhtemelen satın alınmış erişim — kalıbı kopyalarken bunu bilerek kopyalamalı.
+
+**1b. Kare kare görsel analiz**
+
+- **Format:** YATAY (16:9) sinematik, tamamı yapay zekâ ile üretilmiş 5
+  dakikalık anlatılı klip. TikTok'ta dikey doldurmuyor — buna rağmen izlenmiş.
+- **Hook (ilk 3 sn, #001–#006):** Fırtınalı gökyüzü, siyah kumlu sahilde
+  beyaz elbiseli kadın + siyah giyimli adam; ekranda gümüş işlemeli, mücevher
+  gibi "Sana Emanet" logosu (#001–#010 boyunca kalır). Sinema afişi açılışı.
+- **Sahne akışı (tempo ~4–8 sn/plan):** sahil çifti (#001–#020) → tren vagonu
+  kadın (#021–#040) → Boğaz köprüsü + cami silüeti önünde adam (#041–#060) →
+  kırık cep saati makro (#061–#068) → masada viski + tek lamba (#069–#074,
+  #086–#096) → ağlayan kadın makro (#075–#085) → yeşil kazak/yağmurlu pencere
+  (#121–#131) → masada yüzleşme sahnesi (#132–#142) → neon sokak (#143–#171) →
+  yağmurlu cam bokeh (#172–#188) → bozkırda gelinlik/bordo elbise (#189–#258) →
+  sahil evi kapısı (#259–#264) → sonbahar yaprağı düşüşü (#313–#325) → ormanda
+  ağlayan adam (#326–#336+) → mektup yazma/okuma (#409–#432) → mezarlık +
+  **alyansını çıkarıp mezar taşına bırakma** (#505–#525) → fırtınalı gökte
+  kadın portresi (#526–#528) → uçurumda vedalaşma (#577–#591) → siyaha kararma
+  (#592–#597, 4:55–4:58).
+- **Hikâye:** kayıp/yas anlatısı — "Benden sonra size emanet" başlığıyla klip
+  birebir örtüşüyor; izleyiciye çözülecek bir hikâye veriyor (yorumlarda "kim
+  öldü?" tartışması etkileşim üretir).
+- **Efektler/kusurlar:** film grenli, pastel sinematik renk; AI kusurları
+  görünür durumda (#518'de eriyen eller, #582'de bozulan yüz) — 396k izlenmeye
+  engel olmamış.
+- **Ekran yazıları:** YOK (başlık logosu hariç). Söz katmanı YOK. CTA YOK.
+  Tüm metin yükü açıklamada.
+- **Kapak/ilk kare:** #001 gerçek bir film afişi gibi; başlık logosu net.
+
+**1c. Sentez — neden izlendi**
+
+1. **Muhtemel ücretli itki + organik uyum:** %0,56 beğeni oranı erişimin
+   satın alınmış olabileceğini söylüyor; ama içerik "reklam gibi" değil film
+   gibi olduğundan izleyici kaçmamış.
+2. **"BUGÜN YAYINDA" lansman kurgusu:** gece 00:49'da yükleme + aciliyet dili
+   ilk 24 saati maksimize ediyor.
+3. **Anlatılı 5 dk klip:** kayıp hikâyesi merak döngüsü kuruyor; uzun süre =
+   toplam izlenme dakikası sinyali yüksek.
+4. **Açıklamadaki görev verme dili:** "TikTok keşfette beni öne çıkarttı,
+   şimdi sıra sizde! Dinle, izle, paylaş" — izleyiciye rol veriyor; 429
+   paylaşımın motoru.
+5. **Sinema kalitesinde AI prodüksiyon:** tek kişilik bütçeyle "plak şirketi
+   klibi" algısı; kusurlar (eriyen el) umursanmıyor.
+6. **Ders (ters yönde):** başlık kartı dışında overlay/söz/CTA yok; %0,56
+   beğeni bunun da faturası. HASANCA kopyasında söz katmanı eklenmeli.
+
+### VIRAL-8 — retrobesto, katalog derlemesi (43,6k izlenme)
+
+**1a. Metadata analizi**
+
+- **Başlık/açıklama (tam):** "Retrobesto - Şu ana kadar dijital platformlarda
+  yayınladığımız şarkıların kısa bir derlemesini yaptık sizler için.. Retro
+  ruhlu pop şarkıları arasından sizde kendinize uygun olanı bulacaksınız..
+  Daha yeni başlıyoruz yayınlanacak çok şarkımız var sırada bekleyen..😊
+  Takipte kalın #retromusic #şarkı #aimusic #vintage #retro". Samimi/mütevazı
+  ton + "kendinize uygun olanı bulacaksınız" (kişiselleştirme vaadi) +
+  "takipte kalın" CTA. Etiketler: retro kimliği (retromusic/vintage/retro) +
+  genel (şarkı) + **#aimusic — yapay zekâ olduğunu gizlemiyor.**
+- **Kanal:** 1.451 takipçi (çalışmanın en küçüğü), 16 video, imza: "Retro
+  ruhlu yapay zeka müzik projesi. Dünün melodileri, bugünün sözleri." —
+  **açık AI-müzik markası.** 43.600 izlenme = takipçinin 30 katı.
+- **Yükleme:** 2026-08-05 Çarşamba 15:05 UTC (18:05 TR — akşam kuşağı).
+  15 günde 43,6k (~2.900/gün) — istikrarlı uzun kuyruk.
+- **Oranlar:** Beğeni %2,5; yorum yalnız 7, paylaşım 25. Dinletmiş ama
+  konuşturmamış: derleme formatı tek şarkılık duygusal bağ kurmuyor.
+
+**1b. Kare kare görsel analiz**
+
+- **Format:** 124 sn; **11 şarkının "AI albüm kapağı afişi"** art arda, her
+  kapak ~10–11 sn ekranda, aralarda VHS/glitch geçişi (ör. #021–#022,
+  #065–#066, #131–#132). Kapak başına şarkının en vurucu ~10 saniyesi çalıyor.
+- **Görülen kapaklar:** "Ahım Tutarsa" (sepya sokak, klasik araba, bavul,
+  #001–#021) → "Kâfi" (karanlık şato + zırhlı figür, #022–#048) → "Temmuz"
+  (retro yaz afişi: palmiye, kabriyole, gün batımı, #049–#065) → "Tik Tak"
+  (kum saati + disko topu + synth, #066–#120) → "Acılarım Yakışıklı" (sahilde
+  aynaya bakan adam, #121–#131) → "Sevda Köprüsü" (halat örgülü köprü +
+  minibüs, #132–#168) → … → "Konsantrasyon" (retrowave kadın, #241) →
+  **marka kapanışı (#242–#248):** RETROBESTO plak logosu + "TÜM DİJİTAL
+  PLATFORMLARDA" + Spotify/Apple/YT/TikTok/IG ikonları + @retrobesto.
+- **Hook (ilk 3 sn):** "Ahım Tutarsa" afişi + şarkının nakaratı — ama tek
+  statik afiş 10 sn kaldığı için hook gücü orta; derlemenin asıl tutma
+  mekanizması "sıradaki şarkı ne?" merakı.
+- **Ekran yazıları:** her afişte şarkı adı büyük retro tipografiyle (başka söz
+  katmanı yok). **CTA:** video sonunda görsel marka kartı (#242–#248) +
+  açıklamada "takipte kalın".
+- **Görsel kimlik:** tutarlı retro afiş estetiği; her kapak farklı renk
+  dünyası ama aynı el yazısı tipografi ailesi — güçlü marka dili.
+
+**1c. Sentez — neden izlendi**
+
+1. **"Menü" formatı:** 11 şarkı = 11 ayrı kanca; bir şarkı tutmazsa izleyici
+   bir sonrakini bekliyor, kaydırmıyor — tamamlanma yerine "uzun izlenme
+   süresi" üretiyor.
+2. **AI'yi saklamayıp marka yapmak:** "yapay zekâ müzik projesi" + #aimusic
+   merak/tartışma çekiyor (1.451 takipçiyle 43,6k izlenme).
+3. **Afiş estetiği:** her kare ekran görüntüsü alınabilir kalitede; şarkı
+   adları (Ahım Tutarsa, Acılarım Yakışıklı) tek başına merak uyandıran
+   kelime oyunları.
+4. **Akşam 18:05 TR yüklemesi** — doğru kuşak.
+5. **Zayıf noktası:** yorum 7 — derlemede kimse "hangi şarkı?" diye sormuyor
+   çünkü adlar ekranda; etkileşim sorusu yok. HASANCA versiyonunda her afişe
+   "hangisi favorin? yorumlara yaz" eklenmeli.
+
+### VIRAL-9 — TAYFUN X & AMİRA, "Kaldım" (7,4k izlenme ama %11,5 beğeni!)
+
+**1a. Metadata analizi**
+
+- **Başlık/açıklama (tam):** "KALDIM TAYFUN X - TAYFUN YENİDÜNYA Yeni klip ve
+  şarkımız yayında İZLEYİP DİNLEDİĞİNİZ MÜZİĞİN SÖZ - MÜZİK - BESTE YAPAY ZEKA
+  DESTEĞİ OLMADAN TARAFIMIZCA YAPILMIŞTIR VİDEO PRODÜKSİYON YAPAY ZEKA DESTEĞİ
+  İLE TARAFIMIZCA YAPILMIŞTIR + Instagram/YouTube/Facebook linkleri + #damar
+  #müzik #tayfunx #yapayzekamüzik #keşfet". Dikkat: **şeffaflık beyanı**
+  (müzik insan yapımı, görüntü AI) — güven inşası; ama açıklama düz büyük
+  harf blok hâlinde, link yığınıyla okunması zor. Etiketlerde #damar (tür,
+  arabesk kitlesi) + #yapayzekamüzik + #keşfet.
+- **Kanal:** 5.016 takipçi, 97 video, 57,5k beğeni. İmza: "ŞARKILARIN TAMAMI
+  YOUTUBE İZLEYEBİLİRSİNİZ". 3 günde 7.451 izlenme (~2.480/gün, takipçinin
+  1,5 katı) — keşfete düşmemiş.
+- **Yükleme:** 2026-08-17 Pazartesi 13:13 UTC (16:13 TR).
+- **Oranlar — kritik bulgu:** Beğeni **%11,5** (çalışmanın AÇIK ARA en
+  yükseği; viral-7'nin 20 katı), yorum %0,98, paylaşım %1,6. İçerik kendi
+  kitlesini derinden vurmuş ama dağıtım küçük kalmış: klasik "sadık çekirdek
+  kitle + zayıf keşfet" profili.
+
+**1b. Kare kare görsel analiz**
+
+- **Format:** dikey 222 sn AI düet klibi.
+- **Hook (ilk 3 sn, #001–#006):** "KALDIM — TAYFUN X & AMİRA" altın serif
+  logolu afiş: gece Boğaz köprüsü + Kız Kulesi önünde AI çift; altta turkuaz
+  "TAYFUN X PRODUCTION" bandı yazı animasyonuyla doluyor. Güçlü, profesyonel
+  açılış kartı (#001–#016 sabit kalıyor — 8 sn, biraz uzun).
+- **Sahne akışı:** afiş (#001–#016) → rıhtımda kırmızı pantolonlu kadın +
+  kruvaziyer gemi (#017–#100) → güvertede kadın (#097–#116) → rıhtımda ateş
+  varilleri önünde söyleyen adam (#103–#226) → helikopter pisti sahnesi
+  (#217–#219) → panel-flip geçişler (#105–#111, #227, #233) → final:
+  "KALDIM" afişine dönüş (#439–#445).
+- **Ekran yazıları / CTA'lar (sürekli rotasyonda!):** "TAYFUN X PRODUCTION"
+  (açılış), "SÖZ - MÜZİK - BESTE / TAYFUN YENİDÜNYA" (#021–#024, #433–#437),
+  "TÜM MÜZİK MARKETLERDE" + **platform ikon şeridi (YouTube/IG/FB/Spotify/
+  Apple)** (#109–#120 ve tekrarları). Söz (lyric) katmanı YOK — yazılar hep
+  künye/CTA. Video boyunca 5+ kez künye dönüyor: tanıtım ağırlıklı yazı
+  stratejisi.
+- **Görsel kimlik:** gece İstanbul + kruvaziyer lüksü + ateş varilleri;
+  altın/lacivert palet; AI karakter tutarlılığı iyi, geçişlerde hızlı
+  bulanıklık (#227, #233).
+- **Kapak/ilk kare:** #001 kusursuz single afişi.
+
+**1c. Sentez — neden bu profilde**
+
+1. **%11,5 beğeni + %1,6 paylaşım:** damar/arabesk çekirdek kitle içeriği
+   sevmiş — şarkı-kitle uyumu kanıtlı. Sorun içerik değil dağıtım.
+2. **222 sn dikey klip, ilk 8 sn statik afiş:** hook yavaş; keşfet
+   izleyicisini ilk 2 saniyede yakalayamıyor (viral-2'nin aksine ilk karede
+   duygu cümlesi yok).
+3. **Söz katmanı yok, künye çok:** izleyiciyi tutan okuma malzemesi yerine
+   5 kez tekrarlanan production/platform yazıları — izlenme süresi sinyali
+   zayıf kalıyor.
+4. **Şeffaflık beyanı güven veriyor** (yorum oranı %0,98 — viral-7'nin 30
+   katı) ama açıklama metni SEO'suz düz blok.
+5. **Ders:** HASANCA için — güçlü çekirdek etkileşimli içerik + viral-2 tarzı
+   söz katmanı + hızlı hook birleştirilirse iki dünyanın iyisi alınır.
+
+### 2. parti — güncellenmiş ana çıkarımlar
+
+1. **Beğeni oranı ile izlenme ters düşebilir:** viral-7 (396k, %0,56) muhtemel
+   ücretli erişim; viral-9 (7,4k, %11,5) organik çekirdek sevgisi. Sağlıklı
+   hedef: viral-2/3 bandı (%3–5 beğeni + yüksek paylaşım + yüksek izlenme).
+2. **Lansman kurgusu işliyor:** "BUGÜN YAYINDA" + gece yarısı yükleme
+   (viral-7) ve "28.08'de çıkıyor" (viral-3) — ikisi de tarih/aciliyet
+   kancası. HASANCA yeni parça yayınlarında aynı kurgu kullanılmalı.
+3. **AI şeffaflığı iki yönde de çalışıyor:** retrobesto (#aimusic, bio'da
+   açık) ve TAYFUN X (uzun beyan) — ikisi de cezalandırılmamış; aksine merak
+   ve güven üretiyor. HASANCA AI görsel kullanıyorsa gizlemek gerekmiyor.
+4. **Derleme/menü formatı** (viral-8) küçük hesap için ucuz ve etkili keşif
+   aracı: HASANCA'nın 30+ parçası "10 saniyede 10 şarkı — hangisi favorin?"
+   videosuna dönüştürülebilir.
+5. **Hassas içerik duvarı** (viral-6) dağıtımı öldürür: kapak/ilk kare
+   seçiminde moderasyon tetikleyicilerinden kaçın.
+
+---
+
 ## 2. Kullanıcının videosunun analizi
 
 **Bu çalışmada uygulanamadı — nedeni:** Kullanıcı bu çalışma için yalnızca
@@ -585,7 +827,7 @@ yayınlama kararı) bu bölüm doldurulacaktır.
 ## 6. Eksiksizlik kontrol listesi
 
 ```
-- [x] Her viral video için 1a + 1b + 1c tamam (5/5)
+- [x] Her viral video için 1a + 1b + 1c tamam (8/9; viral-6 giriş duvarı nedeniyle erişilemedi, gerekçesi Bölüm 1B'de)
 - [ ] Her kullanıcı videosu için tam analiz + numaralı hata listesi — UYGULANAMADI: bu çalışmada kullanıcı videosu verilmedi (Bölüm 2'de gerekçe yazılı)
 - [x] Karşılaştırma tablosu var (kullanıcı sütunu gerekçeli boş)
 - [x] 10+ başlık (11), tam açıklama (3 platform), 30+ etiket (34)
