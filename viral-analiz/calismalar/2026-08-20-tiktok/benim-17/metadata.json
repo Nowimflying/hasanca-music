@@ -19,5 +19,43 @@
   "gunluk_ortalama_izlenme": 88,
   "video_dosyasi": "calismalar/2026-08-20-tiktok/benim-17/video.mp4",
   "kare_sayisi": 70,
-  "kare_araligi_saniye": 0.5
+  "kare_araligi_saniye": 0.5,
+  "tiktok_analitigi_1_saat": {
+    "izlenme": 104,
+    "begeni": 3,
+    "yorum": 1,
+    "paylasim": 2,
+    "kaydetme": 1,
+    "toplam_oynatma": "7dk21sn",
+    "ortalama_izlenme_sn": 4.5,
+    "tam_izleme_orani_yuzde": 1.01,
+    "tutma_orani_yuzde": 13,
+    "cogu_izleyici_birakti": "0:01",
+    "trafik_sizin_icin_yuzde": 92.9,
+    "izleyici_takipci_olmayan_yuzde": 99,
+    "cinsiyet": {
+      "kadin": 91,
+      "erkek": 9
+    },
+    "yas": {
+      "18-24": 0,
+      "25-34": 7,
+      "35-44": 37,
+      "45-54": 28,
+      "55+": 28
+    },
+    "konum_yuzde": {
+      "Almanya": 56.7,
+      "Türkiye": 10.5,
+      "Fransa": 5.3,
+      "Hollanda": 5.3,
+      "İsveç": 5.3,
+      "İsviçre": 4.2,
+      "İngiltere": 3.2,
+      "Avusturya": 2.1,
+      "Kanada": 2.1,
+      "Belçika": 1.1
+    },
+    "teshis": "Kesfet dagitimi ACILDI (%93 Sizin Icin, %99 takipci olmayan) ama ilk saniye tutmadi (0:01'de terk). Sorun engel degil, acilis karesinin gorsel gucu. Kitle: Avrupa'da 35+ Turk kadin dinleyici."
+  }
 }
