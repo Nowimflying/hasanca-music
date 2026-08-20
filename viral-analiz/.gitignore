@@ -1,0 +1,7 @@
+# Indirilen videolar ve cikarilan kareler buyuk oldugu icin git'e girmez.
+# Analiz ciktilari (metadata.json, RAPOR.md) commit edilir.
+calismalar/**/video.mp4
+calismalar/**/video.*
+calismalar/**/kareler/
+__pycache__/
+*.pyc
