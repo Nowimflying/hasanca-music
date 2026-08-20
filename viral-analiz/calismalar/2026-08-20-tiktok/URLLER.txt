@@ -1,0 +1,7 @@
+# Analiz edilecek viral TikTok videolari (kullanici verdi, 2026-08-20)
+# Her biri icin: python -m viral_analiz hazirla "<URL>" -o "calismalar/2026-08-20-tiktok/viral-N"
+https://vm.tiktok.com/ZN8LPpYR5/
+https://vm.tiktok.com/ZN8LPgT6U/
+https://vm.tiktok.com/ZN8LPG1wB/
+https://vm.tiktok.com/ZN8LPyhjy/
+https://vm.tiktok.com/ZN8LPfF3n/
