@@ -599,6 +599,149 @@ sigara/alkol yakın planı) kaçınılmalı.
 
 ---
 
+## 1C. ÜÇÜNCÜ PARTİ (3. tur, 9 URL — kontrol grubu niteliğinde)
+
+**Analiz zamanı:** 2026-08-20 ~10:30 UTC. Bu parti özellikle değerli çünkü
+**aynı kanalların tutan VE tutmayan videolarını** içeriyor (MELEX, FEROV) —
+neyin işe yaradığını artık kanal içi karşılaştırmayla da doğrulayabiliyoruz.
+
+### Özet tablo — 3. parti
+
+| | viral-10 | viral-11 | viral-12 | viral-13 | viral-14 | viral-15 | viral-16 | viral-17 | viral-18 |
+|---|---|---|---|---|---|---|---|---|---|
+| Kanal | Natali 🇹🇷 (@natalishenderyk74) | MELEX | AmandaAzoitei | FEROV | Alphaox (@alphaoxmusic) | Defiant (@defiantresmi) | Solyra (@solyra_music) | mccly57 | ISTANBUL SOUNDS by ILHAN |
+| Takipçi / video | 13,8k / 563 | 3,2k / 100 | **911,8k** / 1512 | 3,75k / 203 | 22k / 385 | 11,1k / 63 | 3,65k / 257 | 10,5k / 73 | 8,9k / 52 |
+| Ülke | TR | DE | IT | DE | CH | TR | BR | AT | DE |
+| İçerik | Gece Alanya sahili araç çekimi + TR/RU söz — **MELEX'in sesiyle hayran videosu** | Karanlık kulüp kalabalığı + karaoke söz (GEL teaser) | Sokakta selfie-kol dans yürüyüşü (Milano) | Bulanık jet-ski POV + renkli kelime animasyonu (teaser) | Festival DJ kabini + kalabalık ("Jambo Merhaba") | 17 sn statik S/B kapak (Mühürlendi Kader) | Gece otoyol + neon söz ("Kıymetimi Bilmedin") | Kulüp DJ seti (Afrodise) "Summerhit🔥🎧" | Türkiye gezi montajı + sabit marka overlay |
+| Süre | 32 sn | 23 sn | 15 sn | 30 sn | 47 sn | 17 sn | 42 sn | 59 sn | 100 sn |
+| Yükleme (UTC) | 16.08 Pazar 18:19 | 19.08 Çarş. 17:00 | 19.08 Çarş. 15:48 | 06.08 Perş. 19:04 | 28.06 Pazar 13:55 | 09.08 Pazar 18:38 | 16.08 Pazar 19:12 | 02.07 Perş. 08:16 | 09.08 Pazar 14:46 |
+| İzlenme | **130.300** | 2.228 | 75.100 | 844 | 72.200 | 4.466 | 4.012 | 11.500 | 13.500 |
+| İzlenme/takipçi | **9,4×** | 0,7× | 0,08× | 0,2× | 3,3× | 0,4× | 1,1× | 1,1× | 1,5× |
+| Beğeni (oran) | 5.137 (%3,9) | 104 (%4,7) | 5.331 (%7,1) | 43 (%5,1) | 3.218 (%4,5) | 256 (%5,7) | 225 (%5,6) | 447 (%3,9) | 581 (%4,3) |
+| Yorum / Paylaşım | 96 / **1.179** | 20 / 14 | 120 / 122 | 1 / 4 | 90 / **490** | 10 / 14 | 16 / 18 | 12 / 75 | 25 / 106 |
+| Etiketler | турция, алания, песня, türkiye, şarkı | afrohouse seti | YOK | afrohouse seti | afrohouse, turkey, african, music, viral | YOK | keşfetteyizzz, akım, şarkısözleri, newsong, türkçeşarkı | türkiye, keşfetteyizzz, latin, afrohouse, clubmix | açıklamada 10+ etiket yığını |
+
+### VIRAL-10 — Natali, MELEX sesiyle hayran videosu (partinin kazananı: 130k)
+
+- **1a:** Başlık SADECE 5 etiket: `#турция #алания #песня #türkiye #şarkı` —
+  3'ü Rusça (Türkiye, Alanya, şarkı), 2'si Türkçe. Kanal: Alanya'da yaşayan
+  Rus içerik üreticisi (13,8k takipçi, 563 video — günlük vlog hacmi). Ses:
+  **"Originalton – MELEX"** — viral-3'te analiz ettiğimiz "Gözlerinle Sar
+  Beni". Pazar 21:19 TR'de yüklenmiş. 4 günde 130k izlenme (takipçinin 9,4
+  katı), **1.179 paylaşım** (%0,9).
+- **1b:** Prodüksiyon değeri SIFIR: gece Alanya sahil yolunda seyir hâlindeki
+  araçtan telefonla çekilmiş tek plan (65 kare boyunca aynı). Üstünde TikTok'un
+  yerel (native) beyaz yazısıyla iki katman: TR söz + RU çevirisi ("Gözlerinle
+  sar beni / Обними меня своим взглядом" → "Yavaşça / Медленно" → "Kalbim
+  açılınca / Когда моё сердце откроется" → "Ben hâlâ burada / Я всё ещё
+  здесь"). CTA yok, efekt yok, kapak özensiz.
+- **1c — neden patladı:** (1) MELEX'in sesi + Alanya gecesi + RU çeviri =
+  Türkiye'deki/tatildeki Rusça konuşan kitleye nokta atışı; (2) "yaşanmışlık"
+  estetiği — araba camından şehir ışıkları, şarkı sözleriyle duygusal anlam
+  kazanıyor (paylaşımların motoru); (3) yerel etiketler (алания) şehir bazlı
+  arama trafiği. **HASANCA için partinin en önemli dersi:** şarkının kendisi
+  değil, şarkıyla kurulan SAHNE viral oluyor; orijinal ses döngüsü üçüncü
+  kişilerin videolarıyla asıl patlamayı yapıyor.
+
+### VIRAL-11 & VIRAL-13 — Aynı kanalların TUTMAYAN videoları (MELEX 2,2k; FEROV 844)
+
+- **viral-11 (MELEX "GEL" teaser):** Aynı kanal viral-3'te 13k almıştı; bu
+  video 2,2k'da kaldı. Farklar: (1) görüntü **karanlık** kırmızı kulüp
+  kalabalığı — viral-3'ün parlak gün batımı FPV'sinin tersi; (2) **Rusça
+  çeviri katmanı YOK** (sadece "gel / gel bana gel / kalbim sende"); (3) söz
+  tekrarı monoton, plan tek mekân; (4) Çarşamba 20:00 TR yüklemesi iyi ama
+  içerik zayıf. Beğeni oranı %4,7 — görenler sevmiş, dağıtım büyütmemiş
+  (izlenme süresi sinyali düşük).
+- **viral-13 (FEROV "14.08.26" teaser):** 844 izlenme — tüm çalışmanın dibi.
+  Bulanık, düşük çözünürlüklü jet-ski POV tek planı; renkli kelime animasyonu
+  ("LAN HADI SÖYLE…") çabası var ama zemin görüntü kalitesiz; yüz yok, sahne
+  değişimi yok. Perşembe 22:04 TR. Ders: kinetik yazı, kalitesiz görüntüyü
+  kurtarmıyor.
+- **Kanal içi A/B sonucu:** Parlak + iki dilli + tarihli duyuru (viral-3) ≈
+  6× / 15× fark yaratıyor (aynı kanal, aynı tür, aynı hafta bandı).
+
+### VIRAL-12 — AmandaAzoitei (911,8k takipçili dansçı: 75k izlenme = 0,08×)
+
+- **1a:** Açıklama ve etiket TAMAMEN BOŞ. Müzik: "Without You – Mattilo"
+  (muhtemel ücretli şarkı işbirliği; bio'da "song collabs" e-postası var).
+  Çarşamba 18:48 TR.
+- **1b:** 15 sn tek plan: Milano'da uzatılmış kolla selfie çekimi "dans
+  yürüyüşü"; yazı katmanı yok; enerji yüksek, yüz kameraya yakın.
+- **1c:** %7,1 beğeni (kitlesi sadık) ama izlenme, takipçi sayısının onda
+  birinden az. **Ders:** 911k takipçili hesaba şarkı yerleştirmek bile
+  garantili erişim satın almıyor; şarkı arka fon olduğunda dönüşüm yok. Küçük
+  hesabın doğru içeriği (viral-10) influencer yerleştirmesini 2'ye katlıyor.
+
+### VIRAL-14 — Alphaox "Jambo Merhaba" (72k; İngilizce sosyal kanıt formatı)
+
+- **1a:** Başlık İngilizce konumlandırma cümlesi: "Turkish melodies 🇹🇷 +
+  African rhythms 🌍 + Afrohouse 🔥" + 5 etiket (afrohouse, turkey, african,
+  music, viral). İsviçre merkezli, 22k takipçi. Pazar 16:55 TR. 53 günde 72k
+  (uzun kuyruk), **490 paylaşım**.
+- **1b:** Festival ana sahne DJ kabini arkasından çekim; on binlerce kişilik
+  kalabalık; kırmızı/pembe filtre; iki sabit overlay: üstte "This Turkish
+  African Afrohouse drop is so good" (izleyici ağzından yazılmış!), ortada
+  "JAMBO MERHABA" şarkı adı. Kalabalık coşkusu = canlı sosyal kanıt.
+- **1c:** (1) Overlay'i sanatçı değil sanki bir izleyici yazmış gibi kurmak
+  ("This … is so good") üçüncü şahıs onayı hissi veriyor; (2) dev kalabalık
+  görüntüsü şarkıya "zaten hit" algısı yüklüyor; (3) İngilizce + türk-afro
+  füzyon konumlandırması global keşfete oynuyor. HASANCA'da canlı sahne/konser
+  arşiv görüntüsü varsa bu format birebir uygulanabilir.
+
+### VIRAL-15 & VIRAL-16 — Orta sahanın dersleri (4,5k / 4k)
+
+- **viral-15 (Defiant):** 17 sn boyunca TEK statik siyah-beyaz kapak
+  görseli ("MÜHÜRLENDİ KADER"); söz katmanı yok, hareket yok. Açıklama
+  duygu sömürüsüne yaslanıyor: "bu şarkıya çok çalıştık, desteği de
+  hakediyoruz bence. gösterin gücünüzü🌹" — etiket YOK. %5,7 beğeni ama 4,5k
+  izlenmede kalmış. Ders: (1) yalvaran CTA dağıtım getirmiyor; (2) statik
+  görsel + söz katmanı yokluğu = izlenme süresi sinyali yok; (3) etiketsiz
+  açıklama arama trafiğini bırakıyor. (Kanal 11,1k takipçili — izlenme 0,4×.)
+- **viral-16 (Solyra):** Gece otoyol görüntüsü + neon parlamalı söz overlay'i
+  ("KIYMETİMİ BİLMEDİN") — görsel fikir iyi, ama 42 sn boyunca tek satır söz
+  dönüyor ve etiketler spam kokusu veriyor (#keşfetteyizzz #akım). Brezilya
+  lokasyonlu hesap Türkçe içerik atıyor (coğrafi sinyal karışık). 4k izlenme.
+  Ders: #keşfetteyizzz/#akım tarzı hile etiketleri işe yaramıyor; tek söz
+  satırının 42 sn dönmesi yeterli okuma malzemesi değil.
+
+### VIRAL-17 & VIRAL-18 — Orta-üst saha (11,5k / 13,5k)
+
+- **viral-17 (mccly57 "Bulutların İçinde"):** Kulüp DJ seti (Afrodise
+  gecesi), mum ışıkları, kadın DJ, kalabalık; tek overlay "Summerhit🔥🎧".
+  59 sn. %3,9 beğeni, 75 paylaşım. Gerçek etkinlik görüntüsü güven veriyor
+  ama karanlık sahneler (viral-11 ile aynı sorun) ve tek kelimelik overlay
+  sınırlıyor. Perşembe 11:16 TR yüklemesi ölü kuşak.
+- **viral-18 (ISTANBUL SOUNDS "tozlu aynalar"):** Türkiye gezi montajı
+  (sisli köprü manzarası → şelale → Kapadokya peribacaları → balonlar),
+  ~10 sn'de bir sahne; ekran ortasında SABİT blok: "ISTANBUL SOUNDS BY
+  ILHAN / TURKISH ANATOLIAN DEEP HOUSE 2026" + dalga formu + logo. Açıklama
+  10+ etiketli yığın (deephouse, turkishdeephouse, türkçedeephouse…). Bio:
+  "New Drops Daily" — hacim stratejisi. 13,5k izlenme, 106 paylaşım (%0,8).
+  Türkiye manzara ikonografisi (Kapadokya!) yine paylaşım getiriyor; ama
+  sabit dev overlay görüntüyü kapatıyor ve söz katmanı yok.
+
+### 3. parti — güncellenmiş ana çıkarımlar (strateji için kritik)
+
+1. **Orijinal ses döngüsü kanıtlandı:** MELEX'in sesini kullanan üçüncü kişi
+   videosu (viral-10, 130k), MELEX'in kendi en iyi videosunu (13k) 10'a
+   katladı. Strateji, "kendi videon patlasın"dan çok **"sesin başkalarının
+   videosunda patlasın"** üzerine kurulmalı: sese kolay senaryo (araba camı +
+   şehir gecesi + söz) ilham veren içerik üretmek.
+2. **Karanlık/bulanık görüntü = ölüm** (viral-11, 13, kısmen 17): aynı
+   kanalın parlak videoları 6–15× daha iyi performans veriyor.
+3. **İki dilli katman tekrar kazandı** (viral-10 TR+RU 130k; viral-11 tek
+   dilli 2,2k).
+4. **Takipçi sayısı yanılgısı bir kez daha:** 911k'lık hesap 0,08× yaptı;
+   13,8k'lık gurbetçi hesabı 9,4×. İçerik-kitle uyumu her şey.
+5. **Yalvaran CTA ve spam etiket çalışmıyor** (viral-15, 16).
+6. **Sosyal kanıt overlay'i** ("This … drop is so good", festival kalabalığı)
+   güçlü ve HASANCA'ya uyarlanabilir (viral-14, 490 paylaşım).
+7. **Yükleme saati örüntüsü korunuyor:** bu partinin kazananları da
+   16:00–21:30 TR bandında; tek sabah yüklemesi (viral-17, 11:16 TR)
+   ortalamanın altında.
+
+---
+
 ## 2. Kullanıcının videosunun analizi
 
 **Bu çalışmada uygulanamadı — nedeni:** Kullanıcı bu çalışma için yalnızca
@@ -827,7 +970,7 @@ yayınlama kararı) bu bölüm doldurulacaktır.
 ## 6. Eksiksizlik kontrol listesi
 
 ```
-- [x] Her viral video için 1a + 1b + 1c tamam (8/9; viral-6 giriş duvarı nedeniyle erişilemedi, gerekçesi Bölüm 1B'de)
+- [x] Her viral video için 1a + 1b + 1c tamam (17/18; viral-6 giriş duvarı nedeniyle erişilemedi, gerekçesi Bölüm 1B'de)
 - [ ] Her kullanıcı videosu için tam analiz + numaralı hata listesi — UYGULANAMADI: bu çalışmada kullanıcı videosu verilmedi (Bölüm 2'de gerekçe yazılı)
 - [x] Karşılaştırma tablosu var (kullanıcı sütunu gerekçeli boş)
 - [x] 10+ başlık (11), tam açıklama (3 platform), 30+ etiket (34)
